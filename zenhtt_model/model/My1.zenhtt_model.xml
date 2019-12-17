@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zenhtt_model:Domain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:zenhtt_model="http://www.example.org/zenhtt_model" created="2019-12-17 03:32:38.069" code="_zQSMoCBjEeqoV_iRT6bggw">
+  <assetTypes created="2019-12-17 03:32:38.069" code="_9OpTMCBjEeqoV_iRT6bggw" name="apartment"/>
+  <assetTypes created="2019-12-17 03:32:38.069" code="__lkHQCBjEeqoV_iRT6bggw" name="room"/>
+  <assetTypes created="2019-12-17 03:46:47.205" code="_tE79UCBmEeqAYbmW0pp6GA" name="couch"/>
+  <rentalContracts created="2019-12-17 03:32:38.069" code="_C5RTsSBkEeqoV_iRT6bggw" landlord="_B-X8QiBlEeqrLqx8LGbevw" assets="_A2CQoyBkEeqoV_iRT6bggw" tenants="_zqIQAiBjEeqoV_iRT6bggw _B-X8QiBlEeqrLqx8LGbevw" validFrom="2019-12-17 03:43:22.194" validUntil="2020-12-16 03:43:22.194"/>
+  <rentalContracts created="2019-12-17 03:33:50.685" code="_5Xdw0SBkEeqrLqx8LGbevw" landlord="_64W70iBkEeqrLqx8LGbevw" assets="_iMAE4CBmEeqAYbmW0pp6GA _hpKdkCBmEeqAYbmW0pp6GA" tenants="_4Oek8iBjEeqoV_iRT6bggw _B-X8QiBlEeqrLqx8LGbevw" validFrom="2019-12-17 03:43:22.195" validUntil="2020-12-16 03:43:22.195"/>
+  <rentalContracts created="2019-12-17 03:40:08.131" code="_xnEhMSBlEeq-8av6zJOgeg" landlord="_zqIQAiBjEeqoV_iRT6bggw" assets="_xtPlMCBmEeqAYbmW0pp6GA" tenants="_B-X8QiBlEeqrLqx8LGbevw _64W70iBkEeqrLqx8LGbevw" validFrom="2019-12-17 03:43:22.195" validUntil="2020-12-16 03:43:22.195"/>
+  <rentalContracts created="2019-12-17 03:43:49.461" code="_Sl1oUSBmEeqAYbmW0pp6GA" landlord="_4Oek8iBjEeqoV_iRT6bggw" assets="_hMDDwCBmEeqAYbmW0pp6GA" tenants="_64W70iBkEeqrLqx8LGbevw _zqIQAiBjEeqoV_iRT6bggw _B-X8QiBlEeqrLqx8LGbevw" validFrom="2019-12-17 03:43:49.461" validUntil="2020-12-16 03:43:49.461"/>
+  <people created="2019-12-17 03:32:38.069" code="_zqIQAiBjEeqoV_iRT6bggw" name="Karry"/>
+  <people created="2019-12-17 03:32:38.07" code="_4Oek8iBjEeqoV_iRT6bggw" name="Larry"/>
+  <people created="2019-12-17 03:34:00.845" code="_64W70iBkEeqrLqx8LGbevw" name="Barry"/>
+  <people created="2019-12-17 03:34:48.452" code="_B-X8QiBlEeqrLqx8LGbevw" name="Marry"/>
+  <assets created="2019-12-17 03:32:38.07" code="_A2CQoyBkEeqoV_iRT6bggw" name="apartment 1" assettype="_9OpTMCBjEeqoV_iRT6bggw">
+    <childAssets created="2019-12-17 03:44:25.124" code="_X58mQCBmEeqAYbmW0pp6GA" name="apartment 1 room 1" assettype="__lkHQCBjEeqoV_iRT6bggw"/>
+    <childAssets created="2019-12-17 03:44:28.914" code="_YeF1ICBmEeqAYbmW0pp6GA" name="apartment 1 room 2" assettype="__lkHQCBjEeqoV_iRT6bggw"/>
+  </assets>
+  <assets created="2019-12-17 03:44:53.745" code="_cK5eEyBmEeqAYbmW0pp6GA" name="apartment 2" assettype="_9OpTMCBjEeqoV_iRT6bggw">
+    <childAssets created="2019-12-17 03:45:27.42" code="_hMDDwCBmEeqAYbmW0pp6GA" name="apartment 2 room 1" assettype="__lkHQCBjEeqoV_iRT6bggw"/>
+    <childAssets created="2019-12-17 03:45:30.473" code="_hpKdkCBmEeqAYbmW0pp6GA" name="apartment 2 room 2" assettype="__lkHQCBjEeqoV_iRT6bggw">
+      <childAssets created="2019-12-17 03:47:18.275" code="_xtPlMCBmEeqAYbmW0pp6GA" name="apartment 2 room 2 couch 1" assettype="_tE79UCBmEeqAYbmW0pp6GA"/>
+      <childAssets created="2019-12-17 03:47:21.601" code="_yM9nECBmEeqAYbmW0pp6GA" name="apartment 2 room 2 couch 2" assettype="_tE79UCBmEeqAYbmW0pp6GA"/>
+    </childAssets>
+    <childAssets created="2019-12-17 03:45:34.126" code="_iMAE4CBmEeqAYbmW0pp6GA" name="apartment 2 room 3" assettype="__lkHQCBjEeqoV_iRT6bggw"/>
+  </assets>
+</zenhtt_model:Domain>
